@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap_all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrap_all .play_time {
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: #3b5998;
+}
+.wrap_all .image_container {
+  margin-top: 1rem;
+  list-style: none;
+  border: 2px solid #3b5998;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.wrap_all .image_container li {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+}
+.wrap_all .image_container .list0 {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+.wrap_all .image_container .list1 {
+  background-position-x: -100px;
+  background-position-y: 0px;
+}
+.wrap_all .image_container .list2 {
+  background-position-x: -200px;
+  background-position-y: 0px;
+}
+.wrap_all .image_container .list3 {
+  background-position-x: -300px;
+  background-position-y: 0px;
+}
+.wrap_all .image_container .list4 {
+  background-position-x: 0;
+  background-position-y: -100px;
+}
+.wrap_all .image_container .list5 {
+  background-position-x: -100px;
+  background-position-y: -100px;
+}
+.wrap_all .image_container .list6 {
+  background-position-x: -200px;
+  background-position-y: -100px;
+}
+.wrap_all .image_container .list7 {
+  background-position-x: -300px;
+  background-position-y: -100px;
+}
+.wrap_all .image_container .list8 {
+  background-position-x: 0;
+  background-position-y: -200px;
+}
+.wrap_all .image_container .list9 {
+  background-position-x: -100px;
+  background-position-y: -200px;
+}
+.wrap_all .image_container .list10 {
+  background-position-x: -200px;
+  background-position-y: -200px;
+}
+.wrap_all .image_container .list11 {
+  background-position-x: -300px;
+  background-position-y: -200px;
+}
+.wrap_all .image_container .list12 {
+  background-position-x: 0;
+  background-position-y: -300px;
+}
+.wrap_all .image_container .list13 {
+  background-position-x: -100px;
+  background-position-y: -300px;
+}
+.wrap_all .image_container .list14 {
+  background-position-x: -200px;
+  background-position-y: -300px;
+}
+.wrap_all .image_container .list15 {
+  background-position-x: -300px;
+  background-position-y: -300px;
+}
+.wrap_all .start_button {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+.wrap_all .game_text {
+  position: absolute;
+  font-size: 45px;
+  background-color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
