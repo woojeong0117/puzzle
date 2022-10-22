@@ -57,9 +57,6 @@ function createImageTiles() {
       li.setAttribute('draggable', 'true');
       li.classList.add(`list${i}`);
       container.appendChild(li);
-      const img = document.createElement('img');
-      container.appendChild(img);
-      tempArray.push(li);
     });
   return tempArray;
 }
